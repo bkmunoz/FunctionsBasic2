@@ -39,22 +39,10 @@
 
 #This Length, That Value - Write a function that accepts two integers as parameters: size and value. The function should create and return a list whose length is equal to the given size, 
 # and whose values are all the given value.
-"""
-i = 0
-newArr = []
-def thisThat(x,y):
-    newArr.append(y)
-    print(newArr)
-thisThat(3,7)
-
-tried:
-i = 0
 newArr = []
 def thisThat(x,y):
     for i in range (0, x, 1):
-        while i <= x:
-            newArr.append(y)
-            return newArr
+        newArr.append(y)
     print(newArr)
-thisThat(3,7)
-"""
+#thisThat(3,7)
+thisThat(5,3)
